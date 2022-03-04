@@ -9,6 +9,11 @@
   
 }
 
+.weight-info{
+  color: rgb(14, 135, 151);
+  font-weight: bold;
+}
+
 .indicator {
   display: flex;
     justify-content: center;

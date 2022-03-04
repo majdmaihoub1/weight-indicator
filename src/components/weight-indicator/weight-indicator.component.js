@@ -1,7 +1,8 @@
 import React from 'react';
 import './weight-indicator.style.css';
-// import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 const WeightIndicator = ({
+  status = ['UnderWeight', 'Perfect', 'OverWeight'],
   steps = [0, 10, 20, 30],
   width = 300,
   value = Math.min(steps ?? []) ?? 0,
@@ -29,7 +30,7 @@ const WeightIndicator = ({
             transform: 'translateX(-50%)',
           }}
         >
-          {value}
+          <ArrowDropDownIcon color='#0f526d' fontSize='large' />
         </p>
       </div>
       <div className='indicator-middle-row' style={width ? { width } : {}}>
@@ -47,6 +48,11 @@ const WeightIndicator = ({
           <div key={step} className='indicator-label'>
             <p>{step}</p>
           </div>
+        ))}
+      </div>
+      <div className='indicator-bottom-label'>
+        {status.map((state) => (
+          <span>{state}</span>
         ))}
       </div>
     </div>

@@ -5,7 +5,7 @@
 }
 
 .indicator-text {
-  color :rgb(15, 82, 109)
+  color :#0f526d
 }
 
 .indicator-container .indicator-middle-row{
@@ -13,7 +13,7 @@
   height: 50px;
   background-color: rgba(0,0,0,0);
   display: flex;
-  gap:5px;
+  gap:3px;
   align-items:stretch;
   border-radius: 10px;
 }
@@ -55,6 +55,14 @@ z-index:0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.indicator-container .indicator-bottom-label{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items:center;
 }
 
 .indicator-container p{
