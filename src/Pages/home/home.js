@@ -29,7 +29,9 @@ const Home = () => {
             max='120'
             min='1'
           />
-          <h3> Mr Nash's PMI is {weight}</h3>
+        </div>
+        <div className='weight-info'>
+          <h2>Mr Nash's PMI is {weight}</h2>
           <h3> Mr Nash's is {weightValue}</h3>
         </div>
         <div className='indicator'>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './weight-indicator.style.css';
-// import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 const WeightIndicator = ({
   steps = [0, 10, 20, 30],
   width = 300,
@@ -29,7 +29,7 @@ const WeightIndicator = ({
             transform: 'translateX(-50%)',
           }}
         >
-          {value}
+          <ArrowDropDownIcon color='#0f526d' fontSize='large' />
         </p>
       </div>
       <div className='indicator-middle-row' style={width ? { width } : {}}>
