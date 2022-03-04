@@ -1,12 +1,17 @@
-.App {
+.home {
   text-align: center;
 }
 
-.App .center {
+.home .center {
   display: flex;
   justify-content: center;
   flex-direction: column;
   
+}
+
+.indicator {
+  display: flex;
+    justify-content: center;
 }
 
 
