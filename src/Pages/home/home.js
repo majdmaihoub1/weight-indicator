@@ -4,10 +4,14 @@ import TextField from '@mui/material/TextField';
 import './home.style.css';
 
 const Home = () => {
-  const [weight, setWeight] = useState('');
+  const [weight, setWeight] = useState(0);
 
   const handleChange = (e) => {
-    e.target.value <= 120 ? setWeight(e.target.value) : setWeight(120);
+    e.target.value >= 120
+      ? setWeight(120)
+      : weight <= 0
+      ? setWeight(0)
+      : setWeight(e.target.value);
   };
 
   const weightValue =
@@ -23,7 +27,11 @@ const Home = () => {
             inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }}
             type='number'
             helperText={
-              weight < 120 ? 'Weight is in Range' : 'Weight is out of range'
+              weight >= 120
+                ? 'Weight is out Range'
+                : weight <= 0
+                ? 'Weight is out Range'
+                : ' Weight in range'
             }
             onChange={handleChange}
             max='120'
@@ -31,8 +39,8 @@ const Home = () => {
           />
         </div>
         <div className='weight-info'>
-          <h2>Mr Nash's PMI is {weight}</h2>
           <h3> Mr Nash's is {weightValue}</h3>
+          <h2>Mr Nash's PMI is {weight}</h2>
         </div>
         <div className='indicator'>
           <WeightIndicator
