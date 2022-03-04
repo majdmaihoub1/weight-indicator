@@ -57,6 +57,14 @@ z-index:0;
   align-items: flex-start;
 }
 
+.indicator-container .indicator-bottom-label{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items:center;
+}
+
 .indicator-container p{
   margin: 5px 0 ;
   font-size:14px;

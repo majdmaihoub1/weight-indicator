@@ -49,6 +49,11 @@ const WeightIndicator = ({
           </div>
         ))}
       </div>
+      <div className='indicator-bottom-label'>
+        <span>UnderWeight</span>
+        <span>Perfect</span>
+        <span>OverWeight</span>
+      </div>
     </div>
   );
 };
