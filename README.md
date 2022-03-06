@@ -2,69 +2,38 @@
 
 This repo is to present a Weight indicator to help visualize the weight status and values
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+Open [Live Demo](https://majdmaihoub1.github.io/weight-indicator/) to view it in your browser.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to run :
+1. Open the project in your favorite IDE
+2. Open terminal 
+3. Run npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tests:
+1. The used library to run the tests is Jest a JavaScript Testing Framework with a focus on simplicity
+2. The conducted test is a snapshot testing.
+4. I tried to enter three different weights
+one underweight
+one normal
+one overweight
+test snapshots for each one of them 
+3. Type npm run test to run the tests
 
-### `npm test`
+## Project features:
+- Users can set his pet's weight.
+- The App will tell him his pet's status based on the value.
+- The value is between 0 - 120 and can be changed based on the passed props of the components.
+- No negative value is allowed
+- There's an input validation if the value is in range.
+- We can set new range status by passing them as props.
+- We can set indicator width as a prop
+- We can set the indicator value as a prop
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ ## How can we make it better :
+- We can set the pet's type and the indicator will change based on every pet using props.
+- Using Sass instead of Css so we can make more dynaminc styling
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Thank You for your time
