@@ -1,0 +1,77 @@
+.indicator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.indicator-text {
+  color :#0f526d
+}
+
+.indicator-container .indicator-middle-row{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0,0,0,0);
+  display: flex;
+  gap:3px;
+  align-items:stretch;
+  border-radius: 10px;
+}
+
+.indicator-container .bar-slice{
+background-color: rgb(196,196,196);
+display: inline-block;
+height:50px;
+flex-grow: 1;
+margin:0;
+position:relative;
+z-index:0;
+}
+
+.indicator-container .bar-slice:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.indicator-container .bar-slice:last-child{
+  border-radius: 0 10px 10px 0;
+}
+
+.indicator-container .filled-slice{
+  position:absolute;
+  height:50px;
+  background-color:rgb(33, 207, 198) ;
+  z-index: 2;
+}
+
+.indicator-container .bar-slice:first-child .filled-slice{
+  border-radius: 10px 0 0 10px;
+}
+
+.indicator-container .bar-slice:last-child .filled-slice {
+  border-radius: 0 10px 10px 0;
+}
+
+.indicator-container .indicator-bottom-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.indicator-container .indicator-bottom-label{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items:center;
+}
+
+.indicator-container p{
+  margin: 5px 0 ;
+  font-size:14px;
+  color: rgb(25, 153, 175);
+  
+}
+
+.indicator-container .indicator-top-row{
+  display: flex;
+}
