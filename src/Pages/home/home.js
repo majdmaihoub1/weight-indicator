@@ -13,8 +13,6 @@ const Home = () => {
     } else if (val >= 0 && val < 120) {
       setWeight(val);
     }
-
-    console.log(weight);
   };
 
   const weightValue =
