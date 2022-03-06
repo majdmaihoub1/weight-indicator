@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo is to present a Weight indicator to help visualize the weight status and values
 
 ## Available Scripts
 
