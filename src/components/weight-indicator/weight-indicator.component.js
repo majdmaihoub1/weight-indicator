@@ -51,8 +51,8 @@ const WeightIndicator = ({
         ))}
       </div>
       <div className='indicator-bottom-label'>
-        {status.map((state) => (
-          <span>{state}</span>
+        {status.map((state, index) => (
+          <span key={index}>{state}</span>
         ))}
       </div>
     </div>

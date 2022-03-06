@@ -1,0 +1,763 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weight Indicator Compnent matches the snapshot 1`] = `
+<div
+  className="indicator-container"
+  style={
+    Object {
+      "width": 300,
+    }
+  }
+>
+  <div
+    className="indicator-top-row"
+  >
+    <p
+      className="indicator-text"
+      style={
+        Object {
+          "marginLeft": "NaN%",
+          "transform": "translateX(-50%)",
+        }
+      }
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-color#0f526d MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m7 10 5 5 5-5z"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    className="indicator-middle-row"
+    style={
+      Object {
+        "width": 300,
+      }
+    }
+  >
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "NaN%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "NaN%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "NaN%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-row"
+  >
+    <div
+      className="indicator-label"
+    >
+      <p>
+        0
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        10
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        20
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        30
+      </p>
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-label"
+  >
+    <span>
+      UnderWeight
+    </span>
+    <span>
+      Perfect
+    </span>
+    <span>
+      OverWeight
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Weight Indicator Compnent renders Over weight correctly 1`] = `
+<div
+  className="indicator-container"
+  style={
+    Object {
+      "width": 300,
+    }
+  }
+>
+  <div
+    className="indicator-top-row"
+  >
+    <p
+      className="indicator-text"
+      style={
+        Object {
+          "marginLeft": "333.3333333333333%",
+          "transform": "translateX(-50%)",
+        }
+      }
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-color#0f526d MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m7 10 5 5 5-5z"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    className="indicator-middle-row"
+    style={
+      Object {
+        "width": 300,
+      }
+    }
+  >
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-row"
+  >
+    <div
+      className="indicator-label"
+    >
+      <p>
+        0
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        10
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        20
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        30
+      </p>
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-label"
+  >
+    <span>
+      UnderWeight
+    </span>
+    <span>
+      Perfect
+    </span>
+    <span>
+      OverWeight
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Weight Indicator Compnent renders Perfect correctly 1`] = `
+<div
+  className="indicator-container"
+  style={
+    Object {
+      "width": 300,
+    }
+  }
+>
+  <div
+    className="indicator-top-row"
+  >
+    <p
+      className="indicator-text"
+      style={
+        Object {
+          "marginLeft": "166.66666666666666%",
+          "transform": "translateX(-50%)",
+        }
+      }
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-color#0f526d MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m7 10 5 5 5-5z"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    className="indicator-middle-row"
+    style={
+      Object {
+        "width": 300,
+      }
+    }
+  >
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-row"
+  >
+    <div
+      className="indicator-label"
+    >
+      <p>
+        0
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        10
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        20
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        30
+      </p>
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-label"
+  >
+    <span>
+      UnderWeight
+    </span>
+    <span>
+      Perfect
+    </span>
+    <span>
+      OverWeight
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Weight Indicator Compnent renders under weight correctly 1`] = `
+<div
+  className="indicator-container"
+  style={
+    Object {
+      "width": 300,
+    }
+  }
+>
+  <div
+    className="indicator-top-row"
+  >
+    <p
+      className="indicator-text"
+      style={
+        Object {
+          "marginLeft": "66.66666666666667%",
+          "transform": "translateX(-50%)",
+        }
+      }
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-color#0f526d MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m7 10 5 5 5-5z"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    className="indicator-middle-row"
+    style={
+      Object {
+        "width": 300,
+      }
+    }
+  >
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "0%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-row"
+  >
+    <div
+      className="indicator-label"
+    >
+      <p>
+        0
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        10
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        20
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        30
+      </p>
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-label"
+  >
+    <span>
+      UnderWeight
+    </span>
+    <span>
+      Perfect
+    </span>
+    <span>
+      OverWeight
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Weight Indicator Compnent renders weight correctly 1`] = `
+<div
+  className="indicator-container"
+  style={
+    Object {
+      "width": 300,
+    }
+  }
+>
+  <div
+    className="indicator-top-row"
+  >
+    <p
+      className="indicator-text"
+      style={
+        Object {
+          "marginLeft": "333.3333333333333%",
+          "transform": "translateX(-50%)",
+        }
+      }
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-color#0f526d MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m7 10 5 5 5-5z"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    className="indicator-middle-row"
+    style={
+      Object {
+        "width": 300,
+      }
+    }
+  >
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-row"
+  >
+    <div
+      className="indicator-label"
+    >
+      <p>
+        0
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        10
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        20
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        30
+      </p>
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-label"
+  >
+    <span>
+      UnderWeight
+    </span>
+    <span>
+      Perfect
+    </span>
+    <span>
+      OverWeight
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Weight Indicator Compnent renders weight correctly 2`] = `
+<div
+  className="indicator-container"
+  style={
+    Object {
+      "width": 300,
+    }
+  }
+>
+  <div
+    className="indicator-top-row"
+  >
+    <p
+      className="indicator-text"
+      style={
+        Object {
+          "marginLeft": "166.66666666666666%",
+          "transform": "translateX(-50%)",
+        }
+      }
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSvgIcon-color#0f526d MuiSvgIcon-fontSizeLarge css-tzssek-MuiSvgIcon-root"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="m7 10 5 5 5-5z"
+        />
+      </svg>
+    </p>
+  </div>
+  <div
+    className="indicator-middle-row"
+    style={
+      Object {
+        "width": 300,
+      }
+    }
+  >
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+    <div
+      className="bar-slice"
+    >
+      <div
+        className="filled-slice"
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-row"
+  >
+    <div
+      className="indicator-label"
+    >
+      <p>
+        0
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        10
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        20
+      </p>
+    </div>
+    <div
+      className="indicator-label"
+    >
+      <p>
+        30
+      </p>
+    </div>
+  </div>
+  <div
+    className="indicator-bottom-label"
+  >
+    <span>
+      UnderWeight
+    </span>
+    <span>
+      Perfect
+    </span>
+    <span>
+      OverWeight
+    </span>
+  </div>
+</div>
+`;
