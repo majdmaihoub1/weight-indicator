@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/weight-indicator/static/css/main.0ce9803a.css",
+    "main.js": "/weight-indicator/static/js/main.87d0ad09.js",
+    "index.html": "/weight-indicator/index.html",
+    "main.0ce9803a.css.map": "/weight-indicator/static/css/main.0ce9803a.css.map",
+    "main.87d0ad09.js.map": "/weight-indicator/static/js/main.87d0ad09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ce9803a.css",
+    "static/js/main.87d0ad09.js"
+  ]
+}
